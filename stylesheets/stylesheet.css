@@ -423,7 +423,13 @@ Small Device Styles
 }
 
 /****************************My stuff*****************************************/
-.nav {
+.nav a{
     color: white;
+    display: inline;
+    margin-right: 20px;
+}
 
+.nav a:hover{
+    color:red;
+    text-decoration: underline;
 }
